@@ -46,33 +46,33 @@ A comprehensive solution for managing employee records. This project is built us
 
 ### Running the Development Server
 
-    ```bash
+   ```bash
     npm run dev
     # or
     yarn dev
-    ```
+   ```
 
 - Open http://localhost:3000 with your browser to see the result.
 
 ### Building for Production
 
-    ```bash
+   ```bash
     npm run build
     # or
     yarn build
-    ```
+   ```
 
 ### Running in Production Mode
 
-    ```bash
+   ```bash
     npm start
     # or
     yarn start
-    ```
+   ```
 
 ## Project Structure
 
-    ```bash
+   ```bash
     .
     ├── app
     │ ├── layout.tsx
@@ -104,7 +104,7 @@ A comprehensive solution for managing employee records. This project is built us
     ├── tailwind.config.js
     ├── tsconfig.json
     └── README.md
-    ```
+   ```
 
 ## Contributing
 
