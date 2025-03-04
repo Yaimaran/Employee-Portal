@@ -46,7 +46,7 @@ A comprehensive solution for managing employee records. This project is built us
 
 ### Running the Development Server
 
-    ```
+    ```bash
     npm run dev
     # or
     yarn dev
@@ -56,7 +56,7 @@ A comprehensive solution for managing employee records. This project is built us
 
 ### Building for Production
 
-    ```
+    ```bash
     npm run build
     # or
     yarn build
@@ -64,7 +64,7 @@ A comprehensive solution for managing employee records. This project is built us
 
 ### Running in Production Mode
 
-    ```
+    ```bash
     npm start
     # or
     yarn start
@@ -72,7 +72,7 @@ A comprehensive solution for managing employee records. This project is built us
 
 ## Project Structure
 
-    ```
+    ```bash
     .
     ├── app
     │ ├── layout.tsx
