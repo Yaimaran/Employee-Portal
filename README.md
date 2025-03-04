@@ -46,64 +46,66 @@ A comprehensive solution for managing employee records. This project is built us
 
 ### Running the Development Server
 
-npm run dev
-
-# or
-
-yarn dev
+    ```
+    npm run dev
+    # or
+    yarn dev
+    ```
 
 - Open http://localhost:3000 with your browser to see the result.
 
 ### Building for Production
 
-npm run build
-
-# or
-
-yarn build
+    ```
+    npm run build
+    # or
+    yarn build
+    ```
 
 ### Running in Production Mode
 
-npm start
+    ```
+    npm start
+    # or
+    yarn start
+    ```
 
-# or
+## Project Structure
 
-yarn start
+    ```
+    .
+    ├── app
+    │ ├── layout.tsx
+    │ ├── page.tsx
+    │ ├── globals.css
+    ├── components
+    │ ├── about.tsx
+    │ ├── creative-nav.tsx
+    │ ├── employee-form.tsx
+    │ ├── employee-list.tsx
+    │ ├── hero.tsx
+    │ ├── theme-provider.tsx
+    │ ├── ui
+    │ ├── button.tsx
+    │ ├── card.tsx
+    │ ├── input.tsx
+    │ ├── label.tsx
+    │ ├── select.tsx
+    │ ├── toaster.tsx
+    │ ├── use-toast.tsx
+    ├── context
+    │ ├── employee-context.tsx
+    ├── public
+    │ ├── favicon.ico
+    ├── styles
+    │ ├── globals.css
+    ├── .gitignore
+    ├── package.json
+    ├── tailwind.config.js
+    ├── tsconfig.json
+    └── README.md
+    ```
 
-### Project Structure
-
-.
-├── app
-│ ├── layout.tsx
-│ ├── page.tsx
-│ ├── globals.css
-├── components
-│ ├── about.tsx
-│ ├── creative-nav.tsx
-│ ├── employee-form.tsx
-│ ├── employee-list.tsx
-│ ├── hero.tsx
-│ ├── theme-provider.tsx
-│ ├── ui
-│ ├── button.tsx
-│ ├── card.tsx
-│ ├── input.tsx
-│ ├── label.tsx
-│ ├── select.tsx
-│ ├── toaster.tsx
-│ ├── use-toast.tsx
-├── context
-│ ├── employee-context.tsx
-├── public
-│ ├── favicon.ico
-├── styles
-│ ├── globals.css
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── README.md
-
-### Contributing
+## Contributing
 
 - Contributions are welcome! Please open an issue or submit a pull request for any changes.
